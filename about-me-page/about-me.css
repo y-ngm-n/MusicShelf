@@ -55,3 +55,30 @@ body{
   color: #FBD05F;
   top: 175px;
 }
+.container {
+  display: flex;
+  justify-content: center ;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  bottom: 0;
+  height: calc(100vh - 300px);
+  width: 100vw;
+  font-family: 'Times New Roman', Times, serif;
+  /* background-color: white; */
+  text-align: center;
+}
+.head {
+  font-size: 2rem;
+  color: #FBD05F;
+  top: 175px;
+  /* padding: 50px; */
+}
+.content {
+  color: #FBD05F;
+  font-size: 1.5rem;
+  padding: 50px;
+  line-height: 150%;
+  /* font-style: italic; */
+}

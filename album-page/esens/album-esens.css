@@ -116,6 +116,7 @@ body {
   display: flex;
   /* align-items: center; */;
   margin-right: 100px;
+  margin-bottom: 50px;
   padding: 50px;
   width: 80%;
   max-height: 300px;
