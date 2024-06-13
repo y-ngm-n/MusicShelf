@@ -93,7 +93,12 @@ body{
   position: absolute;
   left: 85px;
   bottom: 50px;
+  animation: rotate-image 4s linear infinite;
+  transform-origin: 50% 50%;
   /* opacity: 0.75; */
+}
+@keyframes rotate-image {
+  100% { transform: rotate(360deg); }
 }
 .arm {
   width: 500px;
