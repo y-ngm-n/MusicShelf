@@ -93,9 +93,12 @@ body{
   position: absolute;
   left: 85px;
   bottom: 50px;
-  animation: rotate-image 4s linear infinite;
   transform-origin: 50% 50%;
+  cursor: pointer;
   /* opacity: 0.75; */
+}
+.rotate-image {
+  animation: rotate-image 4s linear infinite;
 }
 @keyframes rotate-image {
   100% { transform: rotate(360deg); }
@@ -128,9 +131,10 @@ body{
   font-family: 'Times New Roman', Times, serif;
   color: #FBD05F;
   text-shadow: 2px 2px 5px black;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   line-height: 175%;
   overflow: auto;
+  font-style: italic;
 }
 
 .progress {
